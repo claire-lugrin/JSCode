@@ -1,4 +1,4 @@
-const fileUrl = 'trials_table.json' // provide file location
+const fileUrl = 'https://github.com/claire-lugrin/JSCode/blob/master/trials_table.csv' // provide file location
 
 fetch(fileUrl)
    .then( r => r.json() )
